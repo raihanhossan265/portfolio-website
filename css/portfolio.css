@@ -8,6 +8,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content:space-between;
+    margin: 0px 180px;
 }
 
 nav > ul {
@@ -38,4 +39,37 @@ nav a {
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* ------------banner related css------------ */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+}
+.header{
+    background-color: #fff8f3;
+    background-image:url(../images/header_bg.png) ;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+.banner-greeting{
+    color:#474747;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 45px;
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-description{
+    margin-bottom: 30px;
 }
